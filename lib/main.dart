@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_for_beginners_2023/screens/home_screen.dart';
+import 'package:flutter_for_beginners_2023/screens/pageview_example.dart';
 
 void main() {
   runApp(Home());
@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeScreen(),
+      home: PageViewExample(),
     );
   }
 }
